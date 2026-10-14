@@ -16,17 +16,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <main>
-      <section class="hero" aria-labelledby="hero-title">
+      <section class="hero">
         <div class="hero-container">
           <div class="hero-content">
             <div class="hero-heading">
-              <h1 id="hero-title">Shaping Digital Realities</h1>
+              <h1 class="scroll-title">Shaping Digital Realities</h1>
               <img
                 class="hero-badge"
                 src="images/Badge.svg"
@@ -36,7 +36,7 @@
               />
             </div>
 
-            <div class="hero-intro">
+            <div class="hero-intro scroll-reveal">
               <p>
                 A new media creator turning abstract concepts into immersive
                 visual systems. Specializing in next-gen aesthetics, spatial
@@ -46,16 +46,15 @@
                 class="button button-primary"
                 href="https://www.eram.cat"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 See them Magic
               </a>
             </div>
 
-            <div class="service-list" aria-label="Creative services">
-              <article class="service-card">
+            <div class="service-list">
+              <article class="service-card scroll-reveal">
                 <div class="service-card-title">
-                  <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                  <i class="fa-solid fa-heart"></i>
                   <h2>Spatial Design</h2>
                 </div>
                 <p>
@@ -63,9 +62,9 @@
                   web.
                 </p>
               </article>
-              <article class="service-card">
+              <article class="service-card scroll-reveal">
                 <div class="service-card-title">
-                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star"></i>
                   <h2>Creative Code</h2>
                 </div>
                 <p>
@@ -73,9 +72,9 @@
                   algorithms.
                 </p>
               </article>
-              <article class="service-card">
+              <article class="service-card scroll-reveal">
                 <div class="service-card-title">
-                  <i class="fa-solid fa-eye" aria-hidden="true"></i>
+                  <i class="fa-solid fa-eye"></i>
                   <h2>Digital Art</h2>
                 </div>
                 <p>
@@ -86,8 +85,8 @@
             </div>
           </div>
 
-          <div class="hero-visual">
-            <div class="hero-shape" aria-hidden="true"></div>
+          <div class="hero-visual scroll-reveal">
+            <div class="hero-shape"></div>
             <img
               class="hero-toy"
               src="images/toy.png"
@@ -99,200 +98,142 @@
         </div>
       </section>
 
-      <section
-        id="selected-works"
-        aria-labelledby="works-title"
-      >
+      <section class="selected-works">
         <header class="selected-works-header">
-          <p class="selected-works-eyebrow">A selection of recent work</p>
-          <h2 id="works-title">Selected Works</h2>
-          <p class="selected-works-intro">
+          <p class="selected-works-eyebrow scroll-reveal">
+            A selection of recent work
+          </p>
+          <h2 class="scroll-title">Selected Works</h2>
+          <p class="selected-works-intro scroll-reveal">
             Experiments across visual identity, moving image, immersive worlds,
             and interactive experiences.
           </p>
         </header>
 
-        <section
-          class="project project-neon"
-          id="neon-tide"
-          aria-labelledby="neon-title"
-        >
-          <div class="project-container">
-            <details class="project-visual">
-              <summary
-                class="project-image-link"
-                aria-label="Neon Tide: An exploratory visual system where luminous gradients and motion-inspired light trails create a bold digital identity."
-              >
-                <img
-                  class="project-image"
-                  src="images/project-neon.svg"
-                  alt=""
-                  width="656"
-                  height="380"
-                />
-                <span class="project-overlay" aria-hidden="true">
-                  <span class="project-overlay-title">Neon Tide</span>
-                  <span class="project-overlay-description">
-                    An exploratory visual system where luminous gradients and
-                    motion-inspired light trails create a bold digital identity.
-                  </span>
-                </span>
-              </summary>
-            </details>
+        <section class="project project-neon">
+          <div class="project-container scroll-reveal">
+            <div class="project-image-wrap">
+              <img
+                class="project-image"
+                src="images/project-neon.svg"
+                alt="Neon Tide visual identity with luminous gradients and light trails"
+                width="656"
+                height="380"
+              />
+              <div class="project-image-description">
+                <p>
+                  A visual identity built around luminous gradients and light
+                  trails.
+                </p>
+              </div>
+            </div>
             <article class="project-details">
-              <h2 id="neon-title">Neon Tide</h2>
+              <h3 class="scroll-title">Neon Tide</h3>
               <p class="project-year">2026</p>
-              <ul class="project-tags" aria-label="Project categories">
+              <ul class="project-tags">
                 <li>Graphic Design</li>
                 <li>Audiovisual</li>
               </ul>
-              <a
-                class="button button-project"
-                href="mailto:hello@example.com?subject=Neon%20Tide"
-              >
-                Discuss project
-              </a>
+              <button class="button button-project" type="button">
+                View project
+              </button>
             </article>
           </div>
         </section>
 
-        <section
-          class="project project-soft"
-          id="soft-forms"
-          aria-labelledby="soft-title"
-        >
-          <div class="project-container">
+        <section class="project project-soft">
+          <div class="project-container scroll-reveal">
             <article class="project-details project-details-right">
-              <h2 id="soft-title">Soft Forms</h2>
+              <h3 class="scroll-title">Soft Forms</h3>
               <p class="project-year">2024</p>
-              <ul class="project-tags" aria-label="Project categories">
+              <ul class="project-tags">
                 <li>Immersive</li>
                 <li>Spatial Design</li>
               </ul>
-              <a
-                class="button button-project"
-                href="mailto:hello@example.com?subject=Soft%20Forms"
-              >
-                Discuss project
-              </a>
+              <button class="button button-project" type="button">
+                View project
+              </button>
             </article>
-            <details class="project-visual">
-              <summary
-                class="project-image-link"
-                aria-label="Soft Forms: A study in soft geometry, repeating structures, and tactile spatial forms for a calm immersive experience."
-              >
-                <img
-                  class="project-image"
-                  src="images/project-soft.svg"
-                  alt=""
-                  width="656"
-                  height="380"
-                />
-                <span class="project-overlay" aria-hidden="true">
-                  <span class="project-overlay-title">Soft Forms</span>
-                  <span class="project-overlay-description">
-                    A study in soft geometry, repeating structures, and tactile
-                    spatial forms for a calm immersive experience.
-                  </span>
-                </span>
-              </summary>
-            </details>
+            <div class="project-image-wrap">
+              <img
+                class="project-image"
+                src="images/project-soft.svg"
+                alt="Soft Forms study of repeating, tactile geometric shapes"
+                width="656"
+                height="380"
+              />
+              <div class="project-image-description">
+                <p>
+                  An immersive study of tactile, repeating geometric shapes.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section
-          class="project project-liquid"
-          id="liquid-form"
-          aria-labelledby="liquid-title"
-        >
-          <div class="project-container">
-            <details class="project-visual">
-              <summary
-                class="project-image-link"
-                aria-label="Liquid Form: An abstract material study using fluid shapes, layered textures, and warm neutral tones to evoke organic movement."
-              >
-                <img
-                  class="project-image"
-                  src="images/project-liquid.svg"
-                  alt=""
-                  width="656"
-                  height="380"
-                />
-                <span class="project-overlay" aria-hidden="true">
-                  <span class="project-overlay-title">Liquid Form</span>
-                  <span class="project-overlay-description">
-                    An abstract material study using fluid shapes, layered
-                    textures, and warm neutral tones to evoke organic movement.
-                  </span>
-                </span>
-              </summary>
-            </details>
+        <section class="project project-liquid">
+          <div class="project-container scroll-reveal">
+            <div class="project-image-wrap">
+              <img
+                class="project-image"
+                src="images/project-liquid.svg"
+                alt="Liquid Form abstract study of fluid shapes and warm layered textures"
+                width="656"
+                height="380"
+              />
+              <div class="project-image-description">
+                <p>A fluid visual study of warm, layered textures.</p>
+              </div>
+            </div>
             <article class="project-details">
-              <h2 id="liquid-title">Liquid Form</h2>
+              <h3 class="scroll-title">Liquid Form</h3>
               <p class="project-year">2026</p>
-              <ul class="project-tags" aria-label="Project categories">
+              <ul class="project-tags">
                 <li>Art Direction</li>
                 <li>Audiovisual</li>
               </ul>
-              <a
-                class="button button-project"
-                href="mailto:hello@example.com?subject=Liquid%20Form"
-              >
-                Discuss project
-              </a>
+              <button class="button button-project" type="button">
+                View project
+              </button>
             </article>
           </div>
         </section>
 
-        <section
-          class="project project-void"
-          id="void-form"
-          aria-labelledby="void-title"
-        >
-          <div class="project-container">
+        <section class="project project-void">
+          <div class="project-container scroll-reveal">
             <article class="project-details project-details-right">
-              <h2 id="void-title">Void Form</h2>
+              <h3 class="scroll-title">Void Form</h3>
               <p class="project-year">2024</p>
-              <ul class="project-tags" aria-label="Project categories">
+              <ul class="project-tags">
                 <li>Interactive Platform</li>
                 <li>Digital Art</li>
               </ul>
-              <a
-                class="button button-project"
-                href="mailto:hello@example.com?subject=Void%20Form"
-              >
-                Discuss project
-              </a>
+              <button class="button button-project" type="button">
+                View project
+              </button>
             </article>
-            <details class="project-visual">
-              <summary
-                class="project-image-link"
-                aria-label="Void Form: A conceptual product exploration shaping a sculptural silhouette from light, shadow, and negative space."
-              >
-                <img
-                  class="project-image"
-                  src="images/project-void.svg"
-                  alt=""
-                  width="656"
-                  height="380"
-                />
-                <span class="project-overlay" aria-hidden="true">
-                  <span class="project-overlay-title">Void Form</span>
-                  <span class="project-overlay-description">
-                    A conceptual product exploration shaping a sculptural
-                    silhouette from light, shadow, and negative space.
-                  </span>
-                </span>
-              </summary>
-            </details>
+            <div class="project-image-wrap">
+              <img
+                class="project-image"
+                src="images/project-void.svg"
+                alt="Void Form sculptural shape defined by light, shadow, and negative space"
+                width="656"
+                height="380"
+              />
+              <div class="project-image-description">
+                <p>
+                  An interactive sculpture shaped by light, shadow, and negative
+                  space.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
-        <div class="selected-works-more">
+        <div class="selected-works-more scroll-reveal">
           <a
             class="button button-primary"
             href="https://www.patreon.com/"
             target="_blank"
-            rel="noopener noreferrer"
           >
             View More Projects
           </a>
@@ -300,12 +241,12 @@
       </section>
     </main>
 
-    <footer class="footer" id="contact">
+    <footer class="footer">
       <div class="footer-container">
-        <div class="footer-main">
+        <div class="footer-main scroll-reveal">
           <div class="footer-headline">
             <p class="footer-eyebrow">Independent Creative Practice</p>
-            <h2>Let's make something meaningful.</h2>
+            <h2 class="scroll-title">Let's make something meaningful.</h2>
           </div>
           <div class="footer-contact">
             <p>
@@ -317,34 +258,45 @@
             </a>
           </div>
         </div>
-        <div class="footer-bottom">
-          <nav class="footer-socials" aria-label="Social media">
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://www.patreon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Patreon
-            </a>
-            <a
-              href="https://github.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
+        <div class="footer-bottom scroll-reveal">
+          <nav class="footer-socials">
+            <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
+            <a href="https://www.patreon.com/" target="_blank"> Patreon </a>
+            <a href="https://github.com/" target="_blank"> GitHub </a>
             <a href="mailto:hello@example.com">hello@example.com</a>
           </nav>
-          <p>© 2026 Independent Creative Practice</p>
+          <p>© 2026 Aleix Dalmau Oliva</p>
         </div>
       </div>
     </footer>
+    <script>
+      const revealItems = document.querySelectorAll(
+        ".scroll-reveal, .scroll-title",
+      );
+
+      if (
+        "IntersectionObserver" in window &&
+        !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ) {
+        document.documentElement.classList.add("has-scroll-reveal");
+
+        const revealObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+              } else {
+                entry.target.classList.remove("is-visible");
+              }
+            });
+          },
+          { threshold: 0.12, rootMargin: "-6% 0px -6% 0px" },
+        );
+
+        revealItems.forEach((item) => revealObserver.observe(item));
+      } else {
+        revealItems.forEach((item) => item.classList.add("is-visible"));
+      }
+    </script>
   </body>
 </html>
