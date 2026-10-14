@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="380" viewBox="0 0 656 380" fill="none">
+  <defs>
+    <linearGradient id="night" x1="28" y1="35" x2="549" y2="391" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050302"/>
+      <stop offset=".58" stop-color="#080705"/>
+      <stop offset="1" stop-color="#05242A"/>
+    </linearGradient>
+    <linearGradient id="flare" x1="552" y1="17" x2="145" y2="343" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9A06B"/>
+      <stop offset=".32" stop-color="#FB3507"/>
+      <stop offset=".65" stop-color="#10151A"/>
+      <stop offset="1" stop-color="#030405"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="519" y1="239" x2="171" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7408"/>
+      <stop offset=".43" stop-color="#D72805"/>
+      <stop offset="1" stop-color="#001318"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0" cy="0" r="1" gradientTransform="matrix(-100 195 -179 -91 545 8)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A81708"/>
+      <stop offset="1" stop-color="#100401" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <path fill="url(#night)" d="M0 0h656v380H0z"/>
+  <path fill="url(#ember)" d="M0 0h656v380H0z"/>
+  <path d="M-40 366C145 286 358 226 426 148 493 72 464 17 473-28" stroke="#F64B08" stroke-opacity=".7" stroke-width="18" filter="url(#glow)"/>
+  <path d="M-40 366C145 286 358 226 426 148 493 72 464 17 473-28" stroke="url(#flare)" stroke-width="5"/>
+  <path d="M76 395c108-92 269-164 462-196 59-10 106-12 148-10" stroke="#FA550B" stroke-opacity=".65" stroke-width="15" filter="url(#glow)"/>
+  <path d="M76 395c108-92 269-164 462-196 59-10 106-12 148-10" stroke="url(#horizon)" stroke-width="4"/>
+  <path d="M91 401c122-95 294-159 493-181" stroke="#49A4B0" stroke-opacity=".55" stroke-width="3"/>
+</svg>

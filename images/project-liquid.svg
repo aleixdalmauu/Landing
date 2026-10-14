@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="380" viewBox="0 0 656 380" fill="none">
+  <defs>
+    <linearGradient id="marble" x1="26" y1="8" x2="612" y2="377" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D2C7B8"/>
+      <stop offset=".22" stop-color="#F4F1E9"/>
+      <stop offset=".45" stop-color="#B8AA99"/>
+      <stop offset=".72" stop-color="#F7F5EE"/>
+      <stop offset="1" stop-color="#9C9185"/>
+    </linearGradient>
+    <linearGradient id="vein" x1="45" y1="47" x2="556" y2="326" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDE9E1"/>
+      <stop offset=".25" stop-color="#948679"/>
+      <stop offset=".44" stop-color="#FBF8F0"/>
+      <stop offset=".67" stop-color="#AA9A87"/>
+      <stop offset="1" stop-color="#E4DDD2"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".62" numOctaves="2" seed="8"/>
+      <feColorMatrix values=".3 0 0 0 .4 .3 0 0 0 .38 .3 0 0 0 .34 0 0 0 .13 0"/>
+    </filter>
+  </defs>
+  <path fill="url(#marble)" d="M0 0h656v380H0z"/>
+  <path d="M-27 87C48 39 73 16 122 40c43 21 25 83 74 96 48 13 67-75 131-78 59-3 64 75 109 84 48 10 111-68 244-51" stroke="#75685B" stroke-opacity=".52" stroke-width="48" filter="url(#blur)"/>
+  <path d="M-37 77C42 28 77 8 124 31c42 21 25 83 74 96 48 13 67-75 131-78 59-3 64 75 109 84 48 10 111-68 244-51" stroke="url(#vein)" stroke-width="27"/>
+  <path d="M-29 87C42 40 77 20 122 42c42 21 25 83 74 96 48 13 67-75 131-78 59-3 64 75 109 84 48 10 111-68 244-51" stroke="#FFFDF8" stroke-opacity=".8" stroke-width="5"/>
+  <path d="M-26 254c97-91 148-105 210-69 62 36 75 97 140 102 66 5 89-95 163-91 50 3 82 47 201 31" stroke="#76695C" stroke-opacity=".5" stroke-width="50" filter="url(#blur)"/>
+  <path d="M-34 244c97-91 148-105 210-69 62 36 75 97 140 102 66 5 89-95 163-91 50 3 82 47 201 31" stroke="url(#vein)" stroke-width="29"/>
+  <path d="M-31 244c97-91 148-105 210-69 62 36 75 97 140 102 66 5 89-95 163-91 50 3 82 47 201 31" stroke="#FFFEFA" stroke-opacity=".78" stroke-width="5"/>
+  <path d="M25-31c22 70 57 97 98 103 38 5 72-33 107-23 49 14 50 76 100 92 48 15 76-24 121-7 55 21 51 91 109 106 38 10 75-3 123-39" stroke="#F7F4EC" stroke-opacity=".8" stroke-width="7"/>
+  <path fill="#FFF" opacity=".18" filter="url(#grain)" d="M0 0h656v380H0z"/>
+</svg>

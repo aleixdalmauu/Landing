@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="380" viewBox="0 0 656 380" fill="none">
+  <defs>
+    <linearGradient id="base" x1="328" y1="0" x2="328" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F1F0"/>
+      <stop offset=".52" stop-color="#D5D6D5"/>
+      <stop offset="1" stop-color="#F7F7F5"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="47" y1="52" x2="303" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFCFA"/>
+      <stop offset=".45" stop-color="#D7D8D7"/>
+      <stop offset=".69" stop-color="#FAFAF8"/>
+      <stop offset="1" stop-color="#C4C6C6"/>
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="384" y1="5" x2="585" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BBBDBE"/>
+      <stop offset=".34" stop-color="#F9F9F7"/>
+      <stop offset=".72" stop-color="#D2D3D3"/>
+      <stop offset="1" stop-color="#FCFCFA"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <pattern id="soft-grid" width="218" height="190" patternUnits="userSpaceOnUse">
+      <path d="M-49 97C2 11 56-12 105 32c38 34 53 83 93 95 38 12 66-19 92-69" stroke="#72777A" stroke-opacity=".24" stroke-width="43" filter="url(#shadow)"/>
+      <path d="M-49 88C2 2 56-21 105 23c38 34 53 83 93 95 38 12 66-19 92-69" stroke="url(#ribbon)" stroke-width="33"/>
+      <path d="M-49 87C2 1 56-22 105 22c38 34 53 83 93 95 38 12 66-19 92-69" stroke="#FFF" stroke-opacity=".75" stroke-width="5"/>
+      <path d="M-5 197c41-80 85-115 136-87 44 25 56 77 98 86" stroke="url(#ribbon2)" stroke-width="22"/>
+    </pattern>
+  </defs>
+  <path fill="url(#base)" d="M0 0h656v380H0z"/>
+  <path fill="url(#soft-grid)" d="M0 0h656v380H0z"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="380" viewBox="0 0 656 380" fill="none">
+  <defs>
+    <linearGradient id="black" x1="72" y1="14" x2="549" y2="373" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#191919"/>
+      <stop offset=".52" stop-color="#080808"/>
+      <stop offset="1" stop-color="#202020"/>
+    </linearGradient>
+    <linearGradient id="sculpture" x1="275" y1="89" x2="424" y2="283" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#353535"/>
+      <stop offset=".4" stop-color="#111"/>
+      <stop offset=".78" stop-color="#292929"/>
+      <stop offset="1" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="248" y1="151" x2="480" y2="223" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#585858"/>
+      <stop offset=".53" stop-color="#171717"/>
+      <stop offset="1" stop-color="#484848"/>
+    </linearGradient>
+    <filter id="shadow" x="12%" y="12%" width="78%" height="100%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <path fill="url(#black)" d="M0 0h656v380H0z"/>
+  <ellipse cx="356" cy="313" rx="216" ry="27" fill="#000" opacity=".65" filter="url(#shadow)"/>
+  <path d="M166 157c23-16 62-22 99-13l76 20c20 5 35 3 54-7l106-55c28-14 64-17 84-4 15 9 12 24-8 36L466 208c-28 17-37 32-36 53 1 14-12 26-35 31-25 6-53-1-65-14-11-12-31-18-66-20l-91-5c-39-2-68-13-72-28-5-18 11-43 35-59Z" fill="url(#sculpture)"/>
+  <path d="M166 157c23-16 62-22 99-13l76 20c20 5 35 3 54-7l106-55c28-14 64-17 84-4 15 9 12 24-8 36L466 208c-28 17-37 32-36 53" stroke="url(#edge)" stroke-width="3"/>
+  <path d="M157 159c10-16 44-27 80-23 35 3 68 19 73 35 5 15-19 25-54 22-42-3-88-19-99-34-1 0-1 0 0 0Z" fill="#111" stroke="#444" stroke-width="2"/>
+  <path d="M391 159c21-2 44 8 49 22 6 17-13 30-36 32-26 3-52-9-56-25-3-13 16-26 43-29Z" fill="#0A0A0A" stroke="#3E3E3E" stroke-width="2"/>
+  <path d="M309 164c1 29 18 48 46 58 27 10 53 11 74 3" stroke="#5A5A5A" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M262 245c13 16 38 24 68 25 35 1 65-7 90-24" stroke="#555" stroke-opacity=".35" stroke-width="2"/>
+  <ellipse cx="352" cy="297" rx="37" ry="8" fill="#151515"/>
+</svg>
